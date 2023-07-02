@@ -151,6 +151,9 @@ class Dev(Configuration):
     EMAIL_HOST_USER = 'seven.number73@gmail.com'
     EMAIL_HOST_PASSWORD = 'fsyqpavdvvguxkwn'
 
+    REGISTRATION_OPEN = True
+    ACCOUNT_ACTIVATION_DAYS = 1
+
 
     # Static files (CSS, JavaScript, Images)
     # https://docs.djangoproject.com/en/3.2/howto/static-files/
